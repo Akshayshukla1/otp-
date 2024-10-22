@@ -1,0 +1,31 @@
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+}
+.one{
+        border: 2px solid black;
+        margin: 5px;
+        
+
+}
+input{
+    height: 40px;
+    color: brown;
+    width:200px;
+    margin: 10px;
+    background-color: lightcyan;
+    font-size: 32px;
+      outline: none;
+    overflow: hidden; 
+    
+}
+input[type="number"]::-webkit-outer-spin-button, 
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}

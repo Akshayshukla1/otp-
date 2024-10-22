@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div>
+    <div class="one">
+
+      <form action="submit">
+
+        <input onwheel="this.blur()"  oninput="limitInputLength(this, 1)"  class="a" type="number" >
+        <input class="b" pattern="[0-9]" oninput="limitInputLength(this, 1)" type="number">
+        <input class="c"  oninput="limitInputLength(this, 1)" type="number">
+        <input  class="d"  oninput="limitInputLength(this, 1)" type="number">
+      </form>
+    </div>
+  </div>
+</body>
+</html>
